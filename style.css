@@ -50,3 +50,29 @@
 .orange {
     background-color:orange;
 }
+.example4 {
+    flex-direction:column;
+}
+.lightblue {
+    background-color:lightskyblue;
+    min-height: 60px;
+    max-height: 60px;
+    flex: 6;
+}
+.row {
+    margin: 2px;
+    display: flex;
+    flex-direction: row;
+}
+.r1 {
+    order: -1;
+}
+.darkblue {
+    background-color:blue;
+    min-height: 60px;
+    max-height: 60px;
+    flex: 1;
+}
+.r2 {
+    order:2;
+}
