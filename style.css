@@ -53,7 +53,7 @@
 .example4 {
     flex-direction:column;
 }
-.lightblue {
+.light {
     background-color:lightskyblue;
     min-height: 60px;
     max-height: 60px;
@@ -67,7 +67,7 @@
 .r1 {
     order: -1;
 }
-.darkblue {
+.dark {
     background-color:blue;
     min-height: 60px;
     max-height: 60px;
@@ -97,3 +97,17 @@
     width:20%;
     min-height:300px;
 }
+.example6 {
+    min-height:200px;
+}
+.child1 {
+    min-height:100px;
+    min-width:100px;
+    flex:1;
+    margin:2px;
+}
+.child2 {
+    min-height:100px;
+}
+
+
